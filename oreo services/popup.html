@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: sans-serif; width: 200px; padding: 10px; }
+    input, button { width: 100%; margin: 5px 0; }
+  </style>
+</head>
+<body>
+  <input id="find" type="text" placeholder="Find..." />
+  <input id="replace" type="text" placeholder="Replace with..." />
+  <div style="display: flex; align-items: center; gap: 6px; margin: 8px 0;">
+    <input type="checkbox" id="bidirectional" style="flex: 0 0 20%;" />
+    <label for="bidirectional" style="flex: 0 0 80%;">Swap Both Ways?</label>
+  </div>
+  <button id="swapBtn">Swap!</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
