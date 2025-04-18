@@ -9,6 +9,10 @@
 <body>
   <input id="find" type="text" placeholder="Find..." />
   <input id="replace" type="text" placeholder="Replace with..." />
+  <div style="display: flex; align-items: center; gap: 6px; margin: 8px 0;">
+    <input type="checkbox" id="bidirectional" style="flex: 0 0 20%;" />
+    <label for="bidirectional" style="flex: 0 0 80%;">Swap Both Ways?</label>
+  </div>
   <button id="swapBtn">Swap!</button>
 
   <script src="popup.js"></script>
